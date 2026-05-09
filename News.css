@@ -1,1 +1,222 @@
 /* SHERXON */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul,ol{
+    list-style:none;
+}
+.container{
+    max-width: 1240px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header{
+    width: 100%;
+    background-color: #E47604;
+    color: #fff;
+}
+.header__title{
+    font-weight: 700;
+font-size: 25px;
+line-height: 155%;
+color: #fff;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.header__block{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    gap: 74px;
+    align-items: center;
+}
+.header__link_box{
+    background-color: #fff;
+    font-weight: 400;
+font-size: 13px;
+color: #dc7000;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius:6px;
+}
+.hero{
+    margin-top: 94px;
+    justify-content: center;
+}
+.hero__link{
+font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #848484;
+}
+.hero__link_1x1x1x1{
+    font-weight: 400;
+font-size: 16px;
+line-height: 209%;
+color: #E47500;
+}
+.lorem{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.hero__title{
+    font-weight: 600;
+font-size: 33px;
+line-height: 180%;
+text-align: center;
+color: #222;
+}
+.hero__text{
+    font-weight: 500;
+font-size: 16px;
+line-height: 188%;
+text-align: center;
+color: #898989;
+}
+.input{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 74px;
+    margin-bottom: 103px;
+    margin-left: 580px;
+    width: 400px;
+    height: 50px;
+    border-radius: 6px;
+}
+.div{
+    margin-bottom: 21px;
+}
+.min__link_box{
+    background-color:blue;
+    font-weight: 400;
+font-size: 13px;
+color: #fffCFC;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius:6px;
+}
+.min__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+color: #424242;
+}
+.aaa{
+    display: flex;
+    align-items: center;
+}
+.min__text{
+    margin-left: 20px;
+}
+.mama__pomogi{
+    margin-top: 21px;
+    margin-bottom: 32px;
+    font-weight: 600;
+font-size: 30px;
+color: #000;
+}
+.lol{
+    font-weight: 400;
+font-size: 17px;
+line-height: 208%;
+color: #515151;
+margin-bottom: 44px;
+}
+.lolo{
+    font-weight: 400;
+font-size: 17px;
+line-height: 208%;
+color: #515151;
+}
+.giga__box_2{
+    margin-top: 180px;
+}
+.images{
+    margin-right: 31px;
+    margin-bottom: 60px;
+}
+.mini__title{
+margin-top: 23px;
+font-weight: 600;
+font-size: 23px;
+color: #000;
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.big{
+    display: flex;
+    justify-content: space-around;
+}
+.minbox{
+    margin-bottom: 0px;
+    border-radius: 0%;
+    align-items: center;
+}
+.box__1x1x1{
+    display: flex;
+    align-items: center;
+    border-radius: 0%;
+    margin-bottom: 70px;
+}
+.lorem__title{
+    margin-top: 101px;
+    margin-bottom: 39px;
+    justify-content: start;
+}
+.lorem__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+color: #525252;
+}
+.lorem__block{
+    margin-top: 74px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 54px;
+    padding-right: 54px;
+    background-color: #1B1B1B;
+    border-radius: 15px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lorem__title_2{
+    font-weight: 500;
+font-size: 30px;
+color: #fff;
+}
+.lorem__text_2{
+    width: 667px;
+    margin-top: 10px;
+    font-weight: 400;
+font-size: 17px;
+color: #fff;
+}
+.lolol{
+    align-items: center;
+    justify-content: space-between;
+}
