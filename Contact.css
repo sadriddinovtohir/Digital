@@ -1,1 +1,67 @@
-/* saidahmad */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul, ol{
+    list-style: none;
+}
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-color: #e47500;
+}
+.header__block{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.header__btn{
+    border-radius: 6px;
+    width: 131px;
+    height: 41px;
+    background-color: #fff;
+    border: none;
+}
+.hero__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 84px;
+    margin-bottom: 15px;
+}
+.hero__item{
+    color: #e47500;
+}
+.hero__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 188%;
+    text-align: center;
+    color: #898989;
+    margin-bottom: 93px;
+}
+.about__block{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
